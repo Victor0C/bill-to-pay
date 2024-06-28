@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	padding: 1.2rem;
+}
+
+.containerEdit {
+	display: flex;
+	justify-content: center;
+}
+
+.editBill {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 45%;
+	gap: 0.625rem;
+}
+
+.editBill h1 {
+	text-align: center;
+	color: #333;
+	font-size: 1.6rem;
+}
+
+label {
+	font-weight: bold;
+}
+
+input,
+input,
+select {
+	padding: 0.5rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.625rem;
+}
+
+button {
+	padding: 0.625rem 1.25rem;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+@media (max-width: 750px) {
+	.editBill{
+		width: 100%;
+	}
+}
